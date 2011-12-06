@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44EB14B5148ECF35008C30C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB14B4148ECF35008C30C7 /* UIKit.framework */; };
+		44EB14B7148ECF35008C30C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB14B6148ECF35008C30C7 /* Foundation.framework */; };
+		44EB14B9148ECF35008C30C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB14B8148ECF35008C30C7 /* CoreGraphics.framework */; };
+		44EB14BF148ECF35008C30C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44EB14BD148ECF35008C30C7 /* InfoPlist.strings */; };
+		44EB14C1148ECF35008C30C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB14C0148ECF35008C30C7 /* main.m */; };
+		44EB14C5148ECF35008C30C7 /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB14C4148ECF35008C30C7 /* FTAppDelegate.m */; };
+		44EB14C8148ECF35008C30C7 /* FTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB14C7148ECF35008C30C7 /* FTViewController.m */; };
+		44EB14CB148ECF35008C30C7 /* FTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44EB14C9148ECF35008C30C7 /* FTViewController_iPhone.xib */; };
+		44EB14CE148ECF35008C30C7 /* FTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44EB14CC148ECF35008C30C7 /* FTViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44EB14B0148ECF35008C30C7 /* FontTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EB14B4148ECF35008C30C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44EB14B6148ECF35008C30C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44EB14B8148ECF35008C30C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44EB14BC148ECF35008C30C7 /* FontTest-Info.plist */ = {isa = PBXFileReference; path = "FontTest-Info.plist"; sourceTree = "<group>"; };
+		44EB14BE148ECF35008C30C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44EB14C0148ECF35008C30C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44EB14C2148ECF35008C30C7 /* FontTest-Prefix.pch */ = {isa = PBXFileReference; path = "FontTest-Prefix.pch"; sourceTree = "<group>"; };
+		44EB14C3148ECF35008C30C7 /* FTAppDelegate.h */ = {isa = PBXFileReference; path = FTAppDelegate.h; sourceTree = "<group>"; };
+		44EB14C4148ECF35008C30C7 /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
+		44EB14C6148ECF35008C30C7 /* FTViewController.h */ = {isa = PBXFileReference; path = FTViewController.h; sourceTree = "<group>"; };
+		44EB14C7148ECF35008C30C7 /* FTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTViewController.m; sourceTree = "<group>"; };
+		44EB14CA148ECF35008C30C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FTViewController_iPhone.xib; sourceTree = "<group>"; };
+		44EB14CD148ECF35008C30C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FTViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44EB14AD148ECF35008C30C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EB14B5148ECF35008C30C7 /* UIKit.framework in Frameworks */,
+				44EB14B7148ECF35008C30C7 /* Foundation.framework in Frameworks */,
+				44EB14B9148ECF35008C30C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44EB14A5148ECF35008C30C7 = {
+			isa = PBXGroup;
+			children = (
+				44EB14BA148ECF35008C30C7 /* FontTest */,
+				44EB14B3148ECF35008C30C7 /* Frameworks */,
+				44EB14B1148ECF35008C30C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44EB14B1148ECF35008C30C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44EB14B0148ECF35008C30C7 /* FontTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44EB14B3148ECF35008C30C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44EB14B4148ECF35008C30C7 /* UIKit.framework */,
+				44EB14B6148ECF35008C30C7 /* Foundation.framework */,
+				44EB14B8148ECF35008C30C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44EB14BA148ECF35008C30C7 /* FontTest */ = {
+			isa = PBXGroup;
+			children = (
+				44EB14C3148ECF35008C30C7 /* FTAppDelegate.h */,
+				44EB14C4148ECF35008C30C7 /* FTAppDelegate.m */,
+				44EB14C6148ECF35008C30C7 /* FTViewController.h */,
+				44EB14C7148ECF35008C30C7 /* FTViewController.m */,
+				44EB14C9148ECF35008C30C7 /* FTViewController_iPhone.xib */,
+				44EB14CC148ECF35008C30C7 /* FTViewController_iPad.xib */,
+				44EB14BB148ECF35008C30C7 /* Supporting Files */,
+			);
+			path = FontTest;
+			sourceTree = "<group>";
+		};
+		44EB14BB148ECF35008C30C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44EB14BC148ECF35008C30C7 /* FontTest-Info.plist */,
+				44EB14BD148ECF35008C30C7 /* InfoPlist.strings */,
+				44EB14C0148ECF35008C30C7 /* main.m */,
+				44EB14C2148ECF35008C30C7 /* FontTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44EB14AF148ECF35008C30C7 /* FontTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44EB14D1148ECF35008C30C7 /* Build configuration list for PBXNativeTarget "FontTest" */;
+			buildPhases = (
+				44EB14AC148ECF35008C30C7 /* Sources */,
+				44EB14AD148ECF35008C30C7 /* Frameworks */,
+				44EB14AE148ECF35008C30C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontTest;
+			productName = FontTest;
+			productReference = 44EB14B0148ECF35008C30C7 /* FontTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44EB14A7148ECF35008C30C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 44EB14AA148ECF35008C30C7 /* Build configuration list for PBXProject "FontTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44EB14A5148ECF35008C30C7;
+			productRefGroup = 44EB14B1148ECF35008C30C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44EB14AF148ECF35008C30C7 /* FontTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44EB14AE148ECF35008C30C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EB14BF148ECF35008C30C7 /* InfoPlist.strings in Resources */,
+				44EB14CB148ECF35008C30C7 /* FTViewController_iPhone.xib in Resources */,
+				44EB14CE148ECF35008C30C7 /* FTViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44EB14AC148ECF35008C30C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EB14C1148ECF35008C30C7 /* main.m in Sources */,
+				44EB14C5148ECF35008C30C7 /* FTAppDelegate.m in Sources */,
+				44EB14C8148ECF35008C30C7 /* FTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44EB14BD148ECF35008C30C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44EB14BE148ECF35008C30C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44EB14C9148ECF35008C30C7 /* FTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44EB14CA148ECF35008C30C7 /* en */,
+			);
+			name = FTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		44EB14CC148ECF35008C30C7 /* FTViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44EB14CD148ECF35008C30C7 /* en */,
+			);
+			name = FTViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44EB14CF148ECF35008C30C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44EB14D0148ECF35008C30C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44EB14D2148ECF35008C30C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontTest/FontTest-Prefix.pch";
+				INFOPLIST_FILE = "FontTest/FontTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44EB14D3148ECF35008C30C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontTest/FontTest-Prefix.pch";
+				INFOPLIST_FILE = "FontTest/FontTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44EB14AA148ECF35008C30C7 /* Build configuration list for PBXProject "FontTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EB14CF148ECF35008C30C7 /* Debug */,
+				44EB14D0148ECF35008C30C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44EB14D1148ECF35008C30C7 /* Build configuration list for PBXNativeTarget "FontTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EB14D2148ECF35008C30C7 /* Debug */,
+				44EB14D3148ECF35008C30C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44EB14A7148ECF35008C30C7 /* Project object */;
+}
