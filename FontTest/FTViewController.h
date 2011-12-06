@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FTViewController : UIViewController
-
+@interface FTViewController : UIViewController <UITextFieldDelegate, UIScrollViewDelegate>
+@property (nonatomic, strong) IBOutlet UITextField *textField;
+@property (nonatomic, strong) IBOutlet UITextField *sizeTextField;
+@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
+- (IBAction)textFieldValueChanged:(id)sender;
 @end

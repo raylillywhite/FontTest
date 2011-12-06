@@ -23,13 +23,13 @@
 		44EB14B4148ECF35008C30C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		44EB14B6148ECF35008C30C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44EB14B8148ECF35008C30C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		44EB14BC148ECF35008C30C7 /* FontTest-Info.plist */ = {isa = PBXFileReference; path = "FontTest-Info.plist"; sourceTree = "<group>"; };
+		44EB14BC148ECF35008C30C7 /* FontTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontTest-Info.plist"; sourceTree = "<group>"; };
 		44EB14BE148ECF35008C30C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44EB14C0148ECF35008C30C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		44EB14C2148ECF35008C30C7 /* FontTest-Prefix.pch */ = {isa = PBXFileReference; path = "FontTest-Prefix.pch"; sourceTree = "<group>"; };
-		44EB14C3148ECF35008C30C7 /* FTAppDelegate.h */ = {isa = PBXFileReference; path = FTAppDelegate.h; sourceTree = "<group>"; };
+		44EB14C2148ECF35008C30C7 /* FontTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontTest-Prefix.pch"; sourceTree = "<group>"; };
+		44EB14C3148ECF35008C30C7 /* FTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAppDelegate.h; sourceTree = "<group>"; };
 		44EB14C4148ECF35008C30C7 /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
-		44EB14C6148ECF35008C30C7 /* FTViewController.h */ = {isa = PBXFileReference; path = FTViewController.h; sourceTree = "<group>"; };
+		44EB14C6148ECF35008C30C7 /* FTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTViewController.h; sourceTree = "<group>"; };
 		44EB14C7148ECF35008C30C7 /* FTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTViewController.m; sourceTree = "<group>"; };
 		44EB14CA148ECF35008C30C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FTViewController_iPhone.xib; sourceTree = "<group>"; };
 		44EB14CD148ECF35008C30C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FTViewController_iPad.xib; sourceTree = "<group>"; };
@@ -253,6 +253,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontTest/FontTest-Prefix.pch";
 				INFOPLIST_FILE = "FontTest/FontTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,6 +265,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontTest/FontTest-Prefix.pch";
 				INFOPLIST_FILE = "FontTest/FontTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
