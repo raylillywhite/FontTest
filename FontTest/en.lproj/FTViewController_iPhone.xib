@@ -101,10 +101,11 @@
 					</object>
 					<object class="IBUIScrollView" id="561357100">
 						<reference key="NSNextResponder" ref="774585933"/>
-						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{0, 39}, {320, 421}}</string>
+						<int key="NSvFlags">319</int>
+						<string key="NSFrame">{{0, 31}, {320, 429}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:190</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">1</int>

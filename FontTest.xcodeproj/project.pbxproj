@@ -15,7 +15,6 @@
 		44EB14C5148ECF35008C30C7 /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB14C4148ECF35008C30C7 /* FTAppDelegate.m */; };
 		44EB14C8148ECF35008C30C7 /* FTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB14C7148ECF35008C30C7 /* FTViewController.m */; };
 		44EB14CB148ECF35008C30C7 /* FTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44EB14C9148ECF35008C30C7 /* FTViewController_iPhone.xib */; };
-		44EB14CE148ECF35008C30C7 /* FTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44EB14CC148ECF35008C30C7 /* FTViewController_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		44EB14C6148ECF35008C30C7 /* FTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTViewController.h; sourceTree = "<group>"; };
 		44EB14C7148ECF35008C30C7 /* FTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTViewController.m; sourceTree = "<group>"; };
 		44EB14CA148ECF35008C30C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FTViewController_iPhone.xib; sourceTree = "<group>"; };
-		44EB14CD148ECF35008C30C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FTViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +82,6 @@
 				44EB14C6148ECF35008C30C7 /* FTViewController.h */,
 				44EB14C7148ECF35008C30C7 /* FTViewController.m */,
 				44EB14C9148ECF35008C30C7 /* FTViewController_iPhone.xib */,
-				44EB14CC148ECF35008C30C7 /* FTViewController_iPad.xib */,
 				44EB14BB148ECF35008C30C7 /* Supporting Files */,
 			);
 			path = FontTest;
@@ -153,7 +150,6 @@
 			files = (
 				44EB14BF148ECF35008C30C7 /* InfoPlist.strings in Resources */,
 				44EB14CB148ECF35008C30C7 /* FTViewController_iPhone.xib in Resources */,
-				44EB14CE148ECF35008C30C7 /* FTViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,14 +183,6 @@
 				44EB14CA148ECF35008C30C7 /* en */,
 			);
 			name = FTViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		44EB14CC148ECF35008C30C7 /* FTViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44EB14CD148ECF35008C30C7 /* en */,
-			);
-			name = FTViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,6 +278,7 @@
 				44EB14D3148ECF35008C30C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
