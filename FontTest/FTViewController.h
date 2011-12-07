@@ -12,5 +12,4 @@
 @property (nonatomic, strong) IBOutlet UITextField *textField;
 @property (nonatomic, strong) IBOutlet UITextField *sizeTextField;
 @property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
-- (IBAction)textFieldValueChanged:(id)sender;
 @end

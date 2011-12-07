@@ -73,13 +73,14 @@
     
     CGFloat fontSize = [self.sizeTextField.text floatValue];
     
-    if (fontSize < 5.0) {
+    if (fontSize < 5.0)
+    {
         fontSize = 5.0;
     }
     
-    for (NSString *familyName in [UIFont familyNames])
+    for (NSString *familyName in [[UIFont familyNames] sortedArrayUsingSelector:@selector(compare:)])
     {
-        for (NSString *name in [UIFont fontNamesForFamilyName:familyName])
+        for (NSString *name in [[UIFont fontNamesForFamilyName:familyName] sortedArrayUsingSelector:@selector(compare:)])
         {
             UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(x, y, 0.0, 0.0)];
             label1.text = name;
