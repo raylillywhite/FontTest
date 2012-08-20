@@ -20,6 +20,7 @@
 		44EB14C5148ECF35008C30C7 /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB14C4148ECF35008C30C7 /* FTAppDelegate.m */; };
 		44EB14C8148ECF35008C30C7 /* FTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB14C7148ECF35008C30C7 /* FTViewController.m */; };
 		44EB14CB148ECF35008C30C7 /* FTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44EB14C9148ECF35008C30C7 /* FTViewController_iPhone.xib */; };
+		8D1DEACB15E2A122009A5A4E /* FontTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1DEACA15E2A122009A5A4E /* FontTest-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +33,6 @@
 		44EB14B4148ECF35008C30C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		44EB14B6148ECF35008C30C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44EB14B8148ECF35008C30C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		44EB14BC148ECF35008C30C7 /* FontTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontTest-Info.plist"; sourceTree = "<group>"; };
 		44EB14BE148ECF35008C30C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44EB14C0148ECF35008C30C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44EB14C2148ECF35008C30C7 /* FontTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontTest-Prefix.pch"; sourceTree = "<group>"; };
@@ -41,6 +41,7 @@
 		44EB14C6148ECF35008C30C7 /* FTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTViewController.h; sourceTree = "<group>"; };
 		44EB14C7148ECF35008C30C7 /* FTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTViewController.m; sourceTree = "<group>"; };
 		44EB14CA148ECF35008C30C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FTViewController_iPhone.xib; sourceTree = "<group>"; };
+		8D1DEACA15E2A122009A5A4E /* FontTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FontTest-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +106,7 @@
 				441A9CC815E1BB7F00FDAA9C /* Gotham-Light.otf */,
 				441A9CC915E1BB7F00FDAA9C /* Gotham-Medium.otf */,
 				441A9CCA15E1BB7F00FDAA9C /* Gotham-XLight.otf */,
-				44EB14BC148ECF35008C30C7 /* FontTest-Info.plist */,
+				8D1DEACA15E2A122009A5A4E /* FontTest-Info.plist */,
 				44EB14BD148ECF35008C30C7 /* InfoPlist.strings */,
 				44EB14C0148ECF35008C30C7 /* main.m */,
 				44EB14C2148ECF35008C30C7 /* FontTest-Prefix.pch */,
@@ -170,6 +171,7 @@
 				441A9CCD15E1BB7F00FDAA9C /* Gotham-Light.otf in Resources */,
 				441A9CCE15E1BB7F00FDAA9C /* Gotham-Medium.otf in Resources */,
 				441A9CCF15E1BB7F00FDAA9C /* Gotham-XLight.otf in Resources */,
+				8D1DEACB15E2A122009A5A4E /* FontTest-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
