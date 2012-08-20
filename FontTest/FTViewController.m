@@ -82,16 +82,34 @@
     {
         for (NSString *name in [[UIFont fontNamesForFamilyName:familyName] sortedArrayUsingSelector:@selector(compare:)])
         {
-            UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(x, y, 0.0, 0.0)];
+            UIFont *font = [UIFont fontWithName:name size:fontSize];
+            
+            UIView *lineHeight = [[UIView alloc] initWithFrame:CGRectMake(x, y + font.lineHeight, 1.0, font.lineHeight)];
+            lineHeight.backgroundColor = [UIColor purpleColor];
+            [self.scrollView addSubview:lineHeight];
+            
+            UIView *ascender = [[UIView alloc] initWithFrame:CGRectMake(lineHeight.frame.origin.x + 2.0, y + font.lineHeight, 1.0, font.ascender)];
+            ascender.backgroundColor = [UIColor redColor];
+            [self.scrollView addSubview:ascender];
+            
+            UIView *capHeight = [[UIView alloc] initWithFrame:CGRectMake(ascender.frame.origin.x + 2.0, y + font.lineHeight + font.ascender - font.capHeight, 1.0, font.capHeight)];
+            capHeight.backgroundColor = [UIColor orangeColor];
+            [self.scrollView addSubview:capHeight];
+            
+            UIView *descender = [[UIView alloc] initWithFrame:CGRectMake(lineHeight.frame.origin.x + 1.0, y + font.lineHeight + font.ascender, 1.0, -font.descender)];
+            descender.backgroundColor = [UIColor blueColor];
+            [self.scrollView addSubview:descender];
+            
+            UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(x + 10.0, y, 0.0, 0.0)];
             label1.text = name;
-            label1.font = [UIFont fontWithName:name size:fontSize];
+            label1.font = font;
             [label1 sizeToFit];
             [self.scrollView addSubview:label1];
             
             maxX = MAX(label1.frame.size.width + label1.frame.origin.x, maxX);
             y += label1.frame.size.height;
             
-            UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(x, y, 0.0, 0.0)];
+            UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(label1.frame.origin.x, y, 0.0, 0.0)];
             label2.text = self.textField.text;
             label2.font = label1.font;
             [label2 sizeToFit];

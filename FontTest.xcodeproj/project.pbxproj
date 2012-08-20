@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441A9CCB15E1BB7F00FDAA9C /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 441A9CC615E1BB7F00FDAA9C /* Gotham-Bold.otf */; };
+		441A9CCC15E1BB7F00FDAA9C /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 441A9CC715E1BB7F00FDAA9C /* Gotham-Book.otf */; };
+		441A9CCD15E1BB7F00FDAA9C /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 441A9CC815E1BB7F00FDAA9C /* Gotham-Light.otf */; };
+		441A9CCE15E1BB7F00FDAA9C /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 441A9CC915E1BB7F00FDAA9C /* Gotham-Medium.otf */; };
+		441A9CCF15E1BB7F00FDAA9C /* Gotham-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 441A9CCA15E1BB7F00FDAA9C /* Gotham-XLight.otf */; };
 		44EB14B5148ECF35008C30C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB14B4148ECF35008C30C7 /* UIKit.framework */; };
 		44EB14B7148ECF35008C30C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB14B6148ECF35008C30C7 /* Foundation.framework */; };
 		44EB14B9148ECF35008C30C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB14B8148ECF35008C30C7 /* CoreGraphics.framework */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		441A9CC615E1BB7F00FDAA9C /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		441A9CC715E1BB7F00FDAA9C /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
+		441A9CC815E1BB7F00FDAA9C /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		441A9CC915E1BB7F00FDAA9C /* Gotham-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Medium.otf"; sourceTree = "<group>"; };
+		441A9CCA15E1BB7F00FDAA9C /* Gotham-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLight.otf"; sourceTree = "<group>"; };
 		44EB14B0148ECF35008C30C7 /* FontTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EB14B4148ECF35008C30C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		44EB14B6148ECF35008C30C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +100,11 @@
 		44EB14BB148ECF35008C30C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				441A9CC615E1BB7F00FDAA9C /* Gotham-Bold.otf */,
+				441A9CC715E1BB7F00FDAA9C /* Gotham-Book.otf */,
+				441A9CC815E1BB7F00FDAA9C /* Gotham-Light.otf */,
+				441A9CC915E1BB7F00FDAA9C /* Gotham-Medium.otf */,
+				441A9CCA15E1BB7F00FDAA9C /* Gotham-XLight.otf */,
 				44EB14BC148ECF35008C30C7 /* FontTest-Info.plist */,
 				44EB14BD148ECF35008C30C7 /* InfoPlist.strings */,
 				44EB14C0148ECF35008C30C7 /* main.m */,
@@ -150,6 +165,11 @@
 			files = (
 				44EB14BF148ECF35008C30C7 /* InfoPlist.strings in Resources */,
 				44EB14CB148ECF35008C30C7 /* FTViewController_iPhone.xib in Resources */,
+				441A9CCB15E1BB7F00FDAA9C /* Gotham-Bold.otf in Resources */,
+				441A9CCC15E1BB7F00FDAA9C /* Gotham-Book.otf in Resources */,
+				441A9CCD15E1BB7F00FDAA9C /* Gotham-Light.otf in Resources */,
+				441A9CCE15E1BB7F00FDAA9C /* Gotham-Medium.otf in Resources */,
+				441A9CCF15E1BB7F00FDAA9C /* Gotham-XLight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
